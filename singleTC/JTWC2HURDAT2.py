@@ -21,13 +21,28 @@ def convert_system(code: str) -> str:
     }.get(code.strip().upper(), "XX")
 
 
-def fix_coord(raw: str) -> str:
+def fix_coord(raw: str, width: int) -> str:
+    """
+    Convert JTWC coord string (e.g. '073N', '1663W') to
+    HURDAT2 style with one decimal, **padded to a constant width**.
+
+    Parameters
+    ----------
+    raw   : the  JTWC coordinate string
+    width : field width for the numeric part (4 for lat, 5 for lon)
+
+    Examples
+    --------
+    >>> fix_coord('073N', 4)   -> ' 7.3N'
+    >>> fix_coord('102N', 4)   -> '10.2N'
+    >>> fix_coord('1669W', 5)  -> '166.9W'
+    """
     raw = raw.strip().upper()
     if not raw:
         return ""
-    hemi = raw[-1]
+    hemi = raw[-1]                 # N/S/E/W
     value = int(raw[:-1]) / 10.0
-    return f"{value:.1f}{hemi}"
+    return f"{value:{width}.1f}{hemi}"
 
 
 def s_int(val, default=0):
@@ -100,8 +115,8 @@ def main(path: str) -> None:
                 hhmm,
                 " ",
                 convert_system(info["sys"]),
-                fix_coord(info["lat"]),
-                fix_coord(info["lon"]),
+                fix_coord(info["lat"], 4),   # latitude  → 4.1f + hemi  = 5 chars
+                fix_coord(info["lon"], 5),   # longitude → 5.1f + hemi = 6 chars
                 f"{int(info['vmax']):3d}",
                 f"{int(info['pmin']):4d}",
             ]
@@ -111,6 +126,7 @@ def main(path: str) -> None:
     print(f"Wrote {outname}")
 
 
+# ───────────── entry point ─────────────
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python jtwc2hurdat2.py <B-deck file>")
