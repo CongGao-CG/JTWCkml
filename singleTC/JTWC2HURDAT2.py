@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 """
-jtwc2hurdat2.py – Convert a JTWC best-track (B-deck) file to HURDAT2.
+JTWC2HURDAT2.py – Convert JTWC B-deck files (even sparse ones) to HURDAT2.
 """
 
 import csv
 import sys
 from collections import OrderedDict
+from pathlib import Path
 
 
 # ───────────── helpers ─────────────
-def convert_system(code: str) -> str:
+def convert_system(code: str, vmax: int) -> str:
+    """Map JTWC system code to HURDAT2 – derive from wind if missing."""
+    code = (code or "").strip().upper()
+    if not code:
+        # derive from 1-min sustained wind (kt) if code blank
+        if vmax < 34:
+            code = "LO"
+        elif vmax < 64:
+            code = "TS"
+        else:
+            code = "HU"
     return {
         "DB": "DB",
         "TD": "TD",
@@ -18,31 +29,20 @@ def convert_system(code: str) -> str:
         "HU": "HU",
         "EX": "EX",
         "LO": "LO",
-    }.get(code.strip().upper(), "XX")
+    }.get(code, "XX")
 
 
-def fix_coord(raw: str, width: int) -> str:
-    """
-    Convert JTWC coord string (e.g. '073N', '1663W') to
-    HURDAT2 style with one decimal, **padded to a constant width**.
-
-    Parameters
-    ----------
-    raw   : the  JTWC coordinate string
-    width : field width for the numeric part (4 for lat, 5 for lon)
-
-    Examples
-    --------
-    >>> fix_coord('073N', 4)   -> ' 7.3N'
-    >>> fix_coord('102N', 4)   -> '10.2N'
-    >>> fix_coord('1669W', 5)  -> '166.9W'
-    """
+def fix_coord(raw: str) -> str:
+    """Turn '152S' → '15.2S' etc.; return blank if missing."""
     raw = raw.strip().upper()
     if not raw:
         return ""
-    hemi = raw[-1]                 # N/S/E/W
-    value = int(raw[:-1]) / 10.0
-    return f"{value:{width}.1f}{hemi}"
+    hemi = raw[-1]
+    try:
+        value = int(raw[:-1]) / 10.0
+    except ValueError:
+        return ""
+    return f"{value:.1f}{hemi}"
 
 
 def s_int(val, default=0):
@@ -56,40 +56,45 @@ def s_int(val, default=0):
 def main(path: str) -> None:
     rows = []
     with open(path, newline="") as fh:
-        for r in csv.reader(fh):
-            if len(r) < 17 or len(r[2].strip()) < 10:
+        rdr = csv.reader(fh)
+        for r in rdr:
+            # minimum: basin, number, yyyymmddhh...
+            if len(r) < 3 or len(r[2].strip()) < 10:
                 continue
-            rows.append([c.strip() for c in r])
+            r = [c.strip() for c in r]
+            # pad to at least 30 columns so we can index safely
+            r += [""] * (30 - len(r))
+            rows.append(r)
 
     if not rows:
         print("No valid rows found in file.")
         return
 
-    rows.sort(key=lambda r: r[2])
+    rows.sort(key=lambda r: r[2])  # chronological
 
     basin, storm_num, year = rows[0][0], rows[0][1].zfill(2), rows[0][2][:4]
 
+    # try to get a name; otherwise UNNAMED
     banned = {"INVEST", "THREE", "TRANSITIONED", ""}
     storm_name = "UNNAMED"
     for rec in reversed(rows):
-        if len(rec) > 27:
-            name = rec[27].upper()
-            if name not in banned:
-                storm_name = name
-                break
+        name = (rec[27] if len(rec) > 27 else "").upper()
+        if name and name not in banned:
+            storm_name = name
+            break
 
+    # aggregate by timestamp (first 10 chars = yyyymmddhh)
     agg = OrderedDict()
     for rec in rows:
-        dt = rec[2][:10]        # yyyymmddhh
-        thresh = rec[11] or "0"
-
+        dt = rec[2][:10]
+        vmax = s_int(rec[8])
         entry = agg.setdefault(
             dt,
             {
                 "lat": rec[6],
                 "lon": rec[7],
-                "vmax": rec[8],
-                "pmin": rec[9],
+                "vmax": vmax,
+                "pmin": s_int(rec[9], 0) or 0,
                 "sys": rec[10],
                 "r34": [0, 0, 0, 0],
                 "r50": [0, 0, 0, 0],
@@ -97,38 +102,45 @@ def main(path: str) -> None:
             },
         )
 
+        thresh = (rec[11] or "0").strip()
         if thresh in {"34", "50", "64"}:
-            entry[f"r{thresh}"][:] = list(map(s_int, rec[13:17]))
+            # rec[13:17] may be blank – convert safely
+            radii = [s_int(x) for x in rec[13:17]]
+            entry[f"r{thresh}"][:] = radii
 
-    outname = f"{basin}{storm_num}{year}_{storm_name}_{len(agg)}.txt"
+    outdir = Path(__file__).resolve().parent / "../single_TC"
+    outdir.mkdir(parents=True, exist_ok=True)
+    outname = outdir / f"{basin}{storm_num}{year}_{storm_name}_{len(agg)}.txt"
+
     with open(outname, "w") as out:
-        # 19-wide name field; 7-wide record count per HURDAT2 spec
+        # header – 19-wide name field; 7-wide record count
         out.write(f"{basin}{storm_num}{year},{storm_name:>19},{len(agg):7d},\n")
 
-        def fmt(arr):               # 4-wide radii values
-            return [f"{v:4d}" for v in arr]
+        def fmt(arr):
+            return [f"{v:5d}" for v in arr]  # 5-wide radii
 
         for dt, info in agg.items():
             date, hhmm = dt[:8], dt[8:] + "00"
-            core = [
+            lat = f"{fix_coord(info['lat']):>5}"  # fixed width
+            lon = f"{fix_coord(info['lon']):>6}"
+            line = [
                 date,
                 hhmm,
                 " ",
-                convert_system(info["sys"]),
-                fix_coord(info["lat"], 4),   # latitude  → 4.1f + hemi  = 5 chars
-                fix_coord(info["lon"], 5),   # longitude → 5.1f + hemi = 6 chars
-                f"{int(info['vmax']):3d}",
-                f"{int(info['pmin']):4d}",
+                convert_system(info["sys"], info["vmax"]),
+                lat,
+                lon,
+                f"{info['vmax']:3d}",
+                f"{info['pmin']:4d}",
             ]
             radii = fmt(info["r34"]) + fmt(info["r50"]) + fmt(info["r64"])
-            out.write(", ".join(core) + ", " + ", ".join(radii) + ", -999\n")
+            out.write(", ".join(line) + ", " + ", ".join(radii) + ", -999\n")
 
     print(f"Wrote {outname}")
 
 
-# ───────────── entry point ─────────────
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python jtwc2hurdat2.py <B-deck file>")
+        print("Usage: python JTWC2HURDAT2.py <B-deck file>")
         sys.exit(1)
     main(sys.argv[1])
