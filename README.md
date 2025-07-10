@@ -15,6 +15,9 @@
 ./unzip_files.sh
 ```
 
+```bash
+python run_all.py
+```
 
 ### Note
 
