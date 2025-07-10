@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """
 jtwc2hurdat2.py – Convert a JTWC best-track (B-deck) file to HURDAT2.
-
-Example
--------
-    python jtwc2hurdat2.py  bcp032015.dat
 """
 
 import csv
@@ -12,14 +8,13 @@ import sys
 from collections import OrderedDict
 
 
-# ────────────────── utility helpers ──────────────────
+# ───────────── helpers ─────────────
 def convert_system(code: str) -> str:
-    """Translate JTWC system codes to the HURDAT2 equivalents."""
     return {
         "DB": "DB",
         "TD": "TD",
         "TS": "TS",
-        "TY": "HU",  # JTWC TY & HU → HU
+        "TY": "HU",
         "HU": "HU",
         "EX": "EX",
         "LO": "LO",
@@ -27,9 +22,6 @@ def convert_system(code: str) -> str:
 
 
 def fix_coord(raw: str) -> str:
-    """
-    Turn '185N' → '18.5N'   (tenths of a degree, hemisphere letter at end).
-    """
     raw = raw.strip().upper()
     if not raw:
         return ""
@@ -38,51 +30,42 @@ def fix_coord(raw: str) -> str:
     return f"{value:.1f}{hemi}"
 
 
-def safe_int(val, default=0):
+def s_int(val, default=0):
     try:
         return int(val)
     except (ValueError, TypeError):
         return default
 
 
-# ────────────────────── main converter ──────────────────────
-def main(infile: str) -> None:
+# ───────────── main ─────────────
+def main(path: str) -> None:
     rows = []
-    with open(infile, newline="") as fh:
-        rdr = csv.reader(fh)
-        for r in rdr:
-            # Require at least 17 columns and a 10-digit yyyymmddhh timestamp
+    with open(path, newline="") as fh:
+        for r in csv.reader(fh):
             if len(r) < 17 or len(r[2].strip()) < 10:
                 continue
             rows.append([c.strip() for c in r])
 
     if not rows:
-        print("No valid records found – is this a JTWC B-deck?")
+        print("No valid rows found in file.")
         return
 
-    # chronological order
-    rows.sort(key=lambda rec: rec[2])
+    rows.sort(key=lambda r: r[2])
 
-    # ── basic header info ─────────────────────────────
-    basin = rows[0][0]
-    storm_num = rows[0][1].zfill(2)
-    year = rows[0][2][:4]
+    basin, storm_num, year = rows[0][0], rows[0][1].zfill(2), rows[0][2][:4]
 
-    # last non-generic storm name in column 28 (idx 27)
     banned = {"INVEST", "THREE", "TRANSITIONED", ""}
     storm_name = "UNNAMED"
     for rec in reversed(rows):
         if len(rec) > 27:
-            name = rec[27].strip().upper()
+            name = rec[27].upper()
             if name not in banned:
                 storm_name = name
                 break
 
-    # ── aggregate by synoptic time (yyymmddhh) ────────
-    agg: OrderedDict[str, dict] = OrderedDict()
-
+    agg = OrderedDict()
     for rec in rows:
-        dt = rec[2][:10]          # yyyymmddhh
+        dt = rec[2][:10]        # yyyymmddhh
         thresh = rec[11] or "0"
 
         entry = agg.setdefault(
@@ -100,42 +83,36 @@ def main(infile: str) -> None:
         )
 
         if thresh in {"34", "50", "64"}:
-            ne, se, sw, nw = map(safe_int, rec[13:17])
-            entry[f"r{thresh}"][:] = [ne, se, sw, nw]
+            entry[f"r{thresh}"][:] = list(map(s_int, rec[13:17]))
 
-    # ── write HURDAT2 ─────────────────────────────────
     outname = f"{basin}{storm_num}{year}_{storm_name}_{len(agg)}.txt"
     with open(outname, "w") as out:
-        # header
-        out.write(f"{basin}{storm_num}{year},{storm_name:>20},{len(agg):5d},\n")
+        # 19-wide name field; 7-wide record count per HURDAT2 spec
+        out.write(f"{basin}{storm_num}{year},{storm_name:>19},{len(agg):7d},\n")
+
+        def fmt(arr):               # 4-wide radii values
+            return [f"{v:4d}" for v in arr]
 
         for dt, info in agg.items():
-            date = dt[:8]
-            hhmm = dt[8:10] + "00"  # JTWC has only hh; add mm=00
+            date, hhmm = dt[:8], dt[8:] + "00"
             core = [
                 date,
                 hhmm,
-                " ",                                   # blank record-ID field
+                " ",
                 convert_system(info["sys"]),
                 fix_coord(info["lat"]),
                 fix_coord(info["lon"]),
-                f"{info['vmax']:>3}",
-                f"{info['pmin']:>4}",
+                f"{int(info['vmax']):3d}",
+                f"{int(info['pmin']):4d}",
             ]
-
-            def fmt(arr):
-                return [f"{v:5d}" for v in arr]
-
             radii = fmt(info["r34"]) + fmt(info["r50"]) + fmt(info["r64"])
-            out.write(", ".join(core) + ", " +
-                      ", ".join(radii) + ", -999\n")
+            out.write(", ".join(core) + ", " + ", ".join(radii) + ", -999\n")
 
     print(f"Wrote {outname}")
 
 
-# ───────────────────────── entry point ─────────────────────────
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python jtwc2hurdat2.py  <JTWC_deck.dat|txt>")
+        print("Usage: python jtwc2hurdat2.py <B-deck file>")
         sys.exit(1)
     main(sys.argv[1])
