@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SH122019</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for SH122019</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0600 UTC FEB 4</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 4</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.3 S, 69.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>69.1,-13.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 4</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 4</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.9 S, 68.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>68.1,-13.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 4</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 4</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.3 S, 67.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1005 mb / 29.68 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>67.1,-14.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 5</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.8 S, 66.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>66.1,-14.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 5</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.2 S, 65.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>65.3,-15.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 5</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.8 S, 64.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>64.6,-15.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 5</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.2 S, 64.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>999 mb / 29.50 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>64.2,-16.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 6</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.5 S, 64.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>992 mb / 29.29 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>64.1,-16.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 6</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.9 S, 64.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>986 mb / 29.12 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>64.2,-16.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 6</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.4 S, 64.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>973 mb / 28.73 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>64.3,-17.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 6</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.8 S, 64.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>964 mb / 28.47 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>95 kt / 109 mph / 176 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>64.8,-17.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 7</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.4 S, 65.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>960 mb / 28.35 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>65.3,-18.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 7</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.1 S, 66.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>946 mb / 27.94 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>66.1,-19.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 7</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.9 S, 66.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>940 mb / 27.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>66.7,-19.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 7</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.6 S, 67.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>945 mb / 27.91 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>67.6,-20.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 8</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.7 S, 68.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>949 mb / 28.02 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>68.6,-21.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 8</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.8 S, 69.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>947 mb / 27.97 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>69.7,-22.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 8</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>24.2 S, 70.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>948 mb / 27.99 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>70.6,-24.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 8</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>25.5 S, 72.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>964 mb / 28.47 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>85 kt / 98 mph / 157 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>72.3,-25.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 9</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>26.8 S, 73.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>975 mb / 28.79 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>73.5,-26.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 9</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>28.3 S, 74.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>978 mb / 28.88 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>74.4,-28.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 9</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>29.6 S, 75.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>75.6,-29.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 9</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>30.8 S, 76.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>991 mb / 29.26 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>76.8,-30.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 10</name>
+      <styleUrl>#ex</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>EX FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 10</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>32.2 S, 78.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>993 mb / 29.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>78.1,-32.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 10</name>
+      <styleUrl>#ex</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>EX FUNANI (SH122019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 10</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>34.2 S, 78.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>993 mb / 29.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>78.9,-34.2</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

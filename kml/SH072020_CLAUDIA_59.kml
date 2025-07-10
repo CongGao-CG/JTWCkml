@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SH072020</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for SH072020</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>1800 UTC JAN 4</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 4</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.2 S, 133.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1010 mb / 29.83 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.2,-8.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 5</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.6 S, 133.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.7,-8.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 5</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.7 S, 134.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.2,-8.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 5</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.4 S, 134.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.5,-9.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 5</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 5</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.6 S, 135.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1003 mb / 29.62 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.2,-9.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 6</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.0 S, 135.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1005 mb / 29.68 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.7,-10</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 6</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.2 S, 136.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.1,-10.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 6</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.4 S, 136.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.6,-10.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 6</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 6</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.7 S, 137.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137,-10.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 7</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.8 S, 137.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.7,-10.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 7</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.2 S, 137.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.6,-11.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 7</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.6 S, 136.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.6,-11.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 7</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 7</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.4 S, 136.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.2,-11.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 8</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.3 S, 135.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1003 mb / 29.62 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.6,-11.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 8</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.4 S, 135.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.2,-11.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 8</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.7 S, 134.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1003 mb / 29.62 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.9,-11.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 8</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 8</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.8 S, 134.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.3,-11.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 9</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.9 S, 134.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134,-11.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 9</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.1 S, 133.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.5,-12.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 9</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.1 S, 132.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1003 mb / 29.62 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>132.7,-12.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 9</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 9</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.1 S, 132.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>132.1,-12.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 10</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 10</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.9 S, 131.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>131.6,-11.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 10</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 10</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.4 S, 130.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>130.7,-12.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 10</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 10</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.7 S, 129.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.9,-12.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 10</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 10</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.8 S, 129.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.2,-12.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 11</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 11</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.0 S, 128.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>128.3,-13</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 11</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 11</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.2 S, 127.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127,-13.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 11</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 11</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.2 S, 126.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>999 mb / 29.50 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.3,-13.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 11</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 11</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.5 S, 125.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>994 mb / 29.35 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.1,-13.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 12</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.8 S, 123.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>989 mb / 29.21 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>123.5,-13.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 12</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.2 S, 122.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>988 mb / 29.18 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>122.4,-14.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 12</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.0 S, 120.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>986 mb / 29.12 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>120.7,-15</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 12</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.7 S, 118.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>981 mb / 28.97 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>118.9,-15.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 13</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.2 S, 117.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>977 mb / 28.85 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>117.2,-16.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 13</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.9 S, 115.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>972 mb / 28.70 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>115.4,-16.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 13</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.2 S, 113.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>975 mb / 28.79 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>113.9,-17.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 13</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.7 S, 112.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>971 mb / 28.67 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>85 kt / 98 mph / 157 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>112.3,-17.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 14</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.8 S, 110.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>974 mb / 28.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>110.9,-17.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 14</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.0 S, 110.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>980 mb / 28.94 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>110.1,-18</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 14</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.4 S, 109.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>986 mb / 29.12 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>109.3,-18.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 14</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.8 S, 108.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>995 mb / 29.38 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>108.3,-18.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 15</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.5 S, 107.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>107.3,-19.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 15</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.1 S, 106.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>106.4,-20.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 15</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.7 S, 105.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>105.6,-20.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 15</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.3 S, 104.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1003 mb / 29.62 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>104.6,-21.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 16</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.9 S, 104.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>104,-21.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 16</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.8 S, 103.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>103.8,-22.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 16</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.3 S, 103.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>103.4,-23.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 16</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.8 S, 103.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>103,-23.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 17</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>24.1 S, 102.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>102.8,-24.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 17</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>24.3 S, 102.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>102.6,-24.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 17</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>24.2 S, 102.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>102.3,-24.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 17</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.5 S, 101.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>101.4,-23.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.1 S, 100.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>100.3,-23.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.1 S, 99.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>99.2,-23.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JAN 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JAN 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.8 S, 98.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1008 mb / 29.77 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>98.4,-22.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JAN 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JAN 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.4 S, 97.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1009 mb / 29.80 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>97.3,-22.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JAN 19</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JAN 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.0 S, 96.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1010 mb / 29.83 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>96.6,-22</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JAN 19</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB CLAUDIA (SH072020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JAN 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.6 S, 95.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1010 mb / 29.83 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>95.9,-21.6</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

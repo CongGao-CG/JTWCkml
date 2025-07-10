@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>IO012020</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for IO012020</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0600 UTC MAY 15</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.5 N, 87.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>87.5,9.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 15</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.5 N, 87.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>87,9.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 15</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.5 N, 86.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.6,9.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 16</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.7 N, 86.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>999 mb / 29.50 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.3,9.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 16</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.9 N, 85.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>85.9,9.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 16</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.3 N, 86.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>992 mb / 29.29 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86,10.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 16</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.7 N, 86.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>987 mb / 29.15 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.1,10.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 17</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.0 N, 86.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>982 mb / 29.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.2,11</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 17</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.4 N, 86.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>978 mb / 28.88 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.3,11.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 17</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.8 N, 86.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>970 mb / 28.64 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.4,11.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 17</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.5 N, 86.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>932 mb / 27.52 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.6,12.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 18</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.1 N, 86.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>919 mb / 27.14 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>130 kt / 150 mph / 241 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.4,13.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 18</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.4 N, 86.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>911 mb / 26.90 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>140 kt / 161 mph / 259 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.2,13.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 18</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.1 N, 86.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>901 mb / 26.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>145 kt / 167 mph / 269 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.4,14.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 18</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.8 N, 86.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>910 mb / 26.87 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>140 kt / 161 mph / 259 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.6,14.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 19</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.5 N, 86.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>925 mb / 27.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.8,15.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 19</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.5 N, 87.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>941 mb / 27.79 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>87,16.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 19</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.3 N, 87.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>946 mb / 27.94 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>87.1,17.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 19</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.3 N, 87.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>945 mb / 27.91 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>87.2,18.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 20</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.2 N, 87.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>947 mb / 27.97 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>87.5,19.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 20</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.5 N, 87.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>953 mb / 28.14 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>95 kt / 109 mph / 176 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>87.9,20.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 20</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.2 N, 88.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>954 mb / 28.17 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>95 kt / 109 mph / 176 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>88.3,22.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 20</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.7 N, 89.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>974 mb / 28.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>89.1,23.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 21</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>25.2 N, 90.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>984 mb / 29.06 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>90.1,25.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 21</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD AMPHAN (IO012020)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>26.5 N, 91.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>91.4,26.5</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SH052007</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for SH052007</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0000 UTC DEC 16</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.3 S, 69.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>69.1,-7.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 16</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.3 S, 68.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>68.2,-7.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 16</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.8 S, 67.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>67.2,-7.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 16</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.6 S, 66.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>66.5,-8.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 17</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.3 S, 65.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>65.8,-9.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 17</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.9 S, 65.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>65.6,-9.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 17</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.4 S, 65.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>65.4,-10.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 17</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.7 S, 65.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>65,-10.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 18</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.8 S, 64.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>64.4,-10.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 18</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.0 S, 63.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>994 mb / 29.35 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>63.7,-11</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 18</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.1 S, 62.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>993 mb / 29.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>62.6,-11.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 18</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.1 S, 61.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>984 mb / 29.06 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>61.4,-11.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 19</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.8 S, 60.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>976 mb / 28.82 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>60.3,-10.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 19</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.5 S, 59.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>956 mb / 28.23 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>59.4,-10.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 19</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.6 S, 58.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>927 mb / 27.37 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>58.5,-10.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 19</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.7 S, 57.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>904 mb / 26.70 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>135 kt / 155 mph / 250 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>57.4,-10.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 20</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.8 S, 56.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>904 mb / 26.70 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>135 kt / 155 mph / 250 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>56,-10.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 20</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.6 S, 55.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>910 mb / 26.87 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>130 kt / 150 mph / 241 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>55,-10.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 20</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.2 S, 54.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>922 mb / 27.23 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>54.1,-10.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 20</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.9 S, 53.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>927 mb / 27.37 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>53.1,-9.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 21</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.6 S, 52.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>938 mb / 27.70 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>52.2,-9.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 21</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.5 S, 51.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>927 mb / 27.37 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>51.5,-9.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 21</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.8 S, 51.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>933 mb / 27.55 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>51,-9.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 21</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.2 S, 50.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>938 mb / 27.70 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>50.6,-10.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 22</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.4 S, 50.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>954 mb / 28.17 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>50.3,-10.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 22</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.6 S, 50.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>967 mb / 28.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>50.1,-10.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 22</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.7 S, 50.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>967 mb / 28.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>50,-10.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 22</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.8 S, 49.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>967 mb / 28.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>49.9,-10.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 23</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.0 S, 49.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>967 mb / 28.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>49.9,-11</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 23</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.5 S, 49.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>967 mb / 28.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>49.7,-11.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 23</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.7 S, 49.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>954 mb / 28.17 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>49.3,-11.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 23</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.8 S, 48.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>944 mb / 27.88 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>48.9,-11.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 24</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.3 S, 48.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>927 mb / 27.37 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>48.6,-12.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 24</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.7 S, 48.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>941 mb / 27.79 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>48.1,-12.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 24</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.2 S, 47.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>941 mb / 27.79 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>47.7,-13.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 24</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.7 S, 47.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>948 mb / 27.99 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>47.4,-13.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 25</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.4 S, 47.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>952 mb / 28.11 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>95 kt / 109 mph / 176 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>47.2,-14.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 25</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.9 S, 46.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>963 mb / 28.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>46.8,-14.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 25</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.4 S, 46.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>970 mb / 28.64 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>46.5,-15.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 25</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.3 S, 46.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>987 mb / 29.15 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>46.2,-16.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 26</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.5 S, 45.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>45.9,-17.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 26</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.9 S, 45.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>45.2,-18.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 26</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.7 S, 43.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>43.9,-19.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC DEC 26</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB BONDO (SH052007)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC DEC 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.6 S, 42.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>42.8,-20.6</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

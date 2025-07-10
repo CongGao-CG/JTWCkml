@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SH242019</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for SH242019</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>1800 UTC APR 21</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.7 S, 52.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1005 mb / 29.68 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>52.7,-9.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 22</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.6 S, 52.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>52,-9.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 22</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.6 S, 51.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>51.7,-9.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 22</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.7 S, 51.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1002 mb / 29.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>51.5,-9.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 22</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.8 S, 51.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>999 mb / 29.50 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>51.3,-9.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 23</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.1 S, 50.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>50.6,-10.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 23</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.3 S, 49.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>998 mb / 29.47 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>49.8,-10.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 23</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.6 S, 48.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>993 mb / 29.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>48.9,-10.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 23</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.6 S, 47.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>974 mb / 28.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>47.8,-10.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 24</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.7 S, 46.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>970 mb / 28.64 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>46.7,-10.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 24</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.9 S, 45.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>963 mb / 28.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>45.7,-10.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 24</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.1 S, 44.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>956 mb / 28.23 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>44.4,-11.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 24</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.1 S, 43.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>948 mb / 27.99 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>43.5,-11.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 25</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.4 S, 42.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>936 mb / 27.64 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>42.6,-11.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 25</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.7 S, 41.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>934 mb / 27.58 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>41.8,-11.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 25</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.0 S, 40.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>942 mb / 27.82 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>40.9,-12</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 25</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.3 S, 40.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>967 mb / 28.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>40.1,-12.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 26</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.4 S, 39.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>978 mb / 28.88 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>39.4,-12.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 26</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.7 S, 39.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>39.1,-12.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 26</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.1 S, 38.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>999 mb / 29.50 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>38.9,-13.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 26</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.5 S, 38.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>38.8,-13.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 27</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB KENNETH (SH242019)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.2 S, 38.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1008 mb / 29.77 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>38.8,-14.2</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

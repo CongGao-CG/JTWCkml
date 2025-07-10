@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SH181981</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for SH181981</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0000 UTC FEB 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.3 S, 179.5 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-179.5,-14.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.9 S, 177.2 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-177.2,-14.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.3 S, 175.1 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-175.1,-15.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.6 S, 173.3 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-173.3,-15.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.8 S, 171.5 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-171.5,-15.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.2 S, 169.3 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-169.3,-16.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.7 S, 167.0 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-167,-16.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.4 S, 164.9 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-164.9,-17.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.3 S, 162.8 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-162.8,-18.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.5 S, 160.9 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-160.9,-19.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.0 S, 159.3 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-159.3,-21</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.8 S, 158.2 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-158.2,-22.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>25.0 S, 157.6 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-157.6,-25</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>27.7 S, 157.6 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-157.6,-27.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>30.5 S, 158.5 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-158.5,-30.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>33.0 S, 160.4 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-160.4,-33</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 24</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH181981)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>35.4 S, 163.5 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>-999 kt / -1149 mph / -1849 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-163.5,-35.4</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

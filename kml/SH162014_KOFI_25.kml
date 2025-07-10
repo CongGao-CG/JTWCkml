@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SH162014</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for SH162014</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0600 UTC FEB 26</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.7 S, 179.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>179.1,-18.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 26</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.3 S, 179.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>179,-18.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 26</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.0 S, 178.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>178.7,-18</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 27</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.4 S, 178.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>178.3,-17.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 27</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.7 S, 178.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>178.4,-16.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 27</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.2 S, 178.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>178.6,-16.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 27</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.9 S, 179.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>179,-15.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC FEB 28</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC FEB 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.5 S, 179.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>998 mb / 29.47 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>179.6,-15.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC FEB 28</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC FEB 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.9 S, 179.5 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-179.5,-15.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC FEB 28</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC FEB 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.3 S, 178.9 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-178.9,-17.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC FEB 28</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC FEB 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.6 S, 178.2 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-178.2,-18.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAR 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAR 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.8 S, 177.2 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>993 mb / 29.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-177.2,-19.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAR 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAR 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.7 S, 176.6 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>989 mb / 29.21 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-176.6,-20.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAR 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAR 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.6 S, 176.1 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>989 mb / 29.21 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-176.1,-21.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAR 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAR 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.3 S, 175.4 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>989 mb / 29.21 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-175.4,-22.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAR 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAR 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.0 S, 174.8 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>989 mb / 29.21 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-174.8,-23</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAR 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAR 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.8 S, 174.1 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-174.1,-23.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAR 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAR 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>24.6 S, 173.4 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-173.4,-24.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAR 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAR 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>25.4 S, 172.5 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-172.5,-25.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAR 3</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAR 3</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>26.6 S, 171.1 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-171.1,-26.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAR 3</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAR 3</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>27.6 S, 169.1 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-169.1,-27.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAR 3</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAR 3</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>29.2 S, 167.1 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>989 mb / 29.21 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-167.1,-29.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAR 3</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAR 3</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>30.7 S, 165.1 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>993 mb / 29.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-165.1,-30.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAR 4</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAR 4</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>32.5 S, 162.6 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-162.6,-32.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAR 4</name>
+      <styleUrl>#ex</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>EX KOFI (SH162014)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAR 4</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>33.5 S, 158.5 W</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>-158.5,-33.5</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

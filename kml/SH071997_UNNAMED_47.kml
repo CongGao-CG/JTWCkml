@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SH071997</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for SH071997</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0000 UTC NOV 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.5 S, 103.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>103.7,-7.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.1 S, 102.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>102.3,-7.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.8 S, 100.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>100.9,-6.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 99.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>99.6,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 98.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>98.5,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 97.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>97.6,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 97.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>97,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 96.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>96.5,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 96.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>96.2,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 95.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>95.9,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 S, 95.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>95.6,-6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.8 S, 95.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>95.2,-6.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 S, 94.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>94.8,-6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 S, 94.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>94.3,-6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.4 S, 93.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>93.6,-6.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.3 S, 92.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>92.8,-6.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 24</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.4 S, 91.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>91.9,-6.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 24</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 S, 90.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>90.9,-6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 24</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.8 S, 89.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>89.7,-6.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 24</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.1 S, 88.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>88.3,-7.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 25</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.4 S, 86.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>86.8,-7.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 25</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.8 S, 85.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>85.4,-7.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 25</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.3 S, 84.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>84.3,-8.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 25</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.7 S, 83.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>83.2,-8.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 26</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.8 S, 82.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>82.1,-8.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 26</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.9 S, 81.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>81,-8.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 26</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.9 S, 79.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>79.9,-8.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 26</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.9 S, 79.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>79,-8.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 27</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.8 S, 78.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>78.2,-8.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 27</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.5 S, 77.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>77.6,-8.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 27</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.1 S, 77.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>77,-8.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 27</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.7 S, 76.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>76.4,-7.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 28</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.2 S, 75.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>75.9,-7.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 28</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 S, 75.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>75.5,-6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 28</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.0 S, 75.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>75.2,-6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 28</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.3 S, 74.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>74.8,-5.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 29</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.6 S, 74.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>74.5,-4.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 29</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>3.9 S, 74.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>74.1,-3.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 29</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>3.6 S, 73.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>73.7,-3.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 29</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>3.5 S, 73.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>73.4,-3.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC NOV 30</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC NOV 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>3.5 S, 73.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>73.1,-3.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC NOV 30</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC NOV 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>3.6 S, 72.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>72.8,-3.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC NOV 30</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC NOV 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>3.8 S, 72.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>72.3,-3.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC NOV 30</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC NOV 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.1 S, 71.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>71.7,-4.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC DEC 1</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC DEC 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.6 S, 71.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>71,-4.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC DEC 1</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC DEC 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.4 S, 70.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>70.1,-5.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC DEC 1</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (SH071997)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC DEC 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 S, 68.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>68.9,-6.5</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

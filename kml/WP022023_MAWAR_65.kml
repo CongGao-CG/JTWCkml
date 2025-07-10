@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>WP022023</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for WP022023</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0000 UTC MAY 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.4 N, 150.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>150.9,5.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.0 N, 150.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1010 mb / 29.83 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>150.6,5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.7 N, 150.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>150.4,4.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 18</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.5 N, 150.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>150.1,4.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 19</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.4 N, 149.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.7,4.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 19</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.4 N, 149.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.3,4.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 19</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.6 N, 149.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>998 mb / 29.47 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.1,4.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 19</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>4.9 N, 149.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.1,4.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 20</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.2 N, 149.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>994 mb / 29.35 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.5,5.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 20</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.4 N, 149.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>994 mb / 29.35 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.5,5.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 20</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.6 N, 149.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.4,5.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 20</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 N, 149.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.1,6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 21</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 148.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>996 mb / 29.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>148.9,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 21</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.6 N, 148.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>989 mb / 29.21 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>148.1,7.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 21</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.0 N, 147.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>988 mb / 29.18 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>147.8,8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 21</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.4 N, 147.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>979 mb / 28.91 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>147.8,8.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 22</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.0 N, 147.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>973 mb / 28.73 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>85 kt / 98 mph / 157 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>147.4,9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 22</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.4 N, 147.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>969 mb / 28.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>147,9.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 22</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.0 N, 146.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>969 mb / 28.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>146.9,10</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 22</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.5 N, 146.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>960 mb / 28.35 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>146.8,10.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 23</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.2 N, 146.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>947 mb / 27.97 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>146.8,11.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 23</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.8 N, 146.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>926 mb / 27.34 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>135 kt / 155 mph / 250 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>146.4,11.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 23</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.2 N, 146.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>924 mb / 27.29 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>135 kt / 155 mph / 250 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>146,12.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 23</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.7 N, 145.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>940 mb / 27.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>145.7,12.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 24</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.0 N, 145.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>956 mb / 28.23 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>145.6,13</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 24</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.6 N, 145.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>946 mb / 27.94 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>145.3,13.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 24</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.8 N, 144.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>940 mb / 27.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>144.7,13.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 24</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.1 N, 144.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>935 mb / 27.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>144.2,14.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 25</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.2 N, 143.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>918 mb / 27.11 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>140 kt / 161 mph / 259 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>143.5,14.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 25</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.5 N, 142.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>913 mb / 26.96 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>145 kt / 167 mph / 269 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>142.8,14.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 25</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.7 N, 141.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>902 mb / 26.64 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>155 kt / 178 mph / 287 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>141.5,14.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 25</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.9 N, 140.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>903 mb / 26.67 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>155 kt / 178 mph / 287 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>140.4,14.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 26</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.1 N, 139.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>891 mb / 26.31 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>165 kt / 190 mph / 306 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>139.2,15.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 26</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.3 N, 137.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>897 mb / 26.49 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>160 kt / 184 mph / 296 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.9,15.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 26</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.7 N, 136.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>914 mb / 26.99 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>145 kt / 167 mph / 269 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.5,15.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 26</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.0 N, 134.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>919 mb / 27.14 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>140 kt / 161 mph / 259 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.9,16</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 27</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.3 N, 133.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>926 mb / 27.34 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>135 kt / 155 mph / 250 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.5,16.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 27</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.6 N, 132.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>928 mb / 27.40 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>130 kt / 150 mph / 241 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>132.2,16.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 27</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.8 N, 130.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>934 mb / 27.58 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>130.9,16.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 27</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.0 N, 129.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>942 mb / 27.82 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.7,17</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 28</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.2 N, 128.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>947 mb / 27.97 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>128.7,17.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 28</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.6 N, 127.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>951 mb / 28.08 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127.9,17.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 28</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.0 N, 127.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>951 mb / 28.08 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127.3,18</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 28</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.6 N, 126.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>950 mb / 28.05 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.7,18.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 29</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.0 N, 126.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>949 mb / 28.02 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.2,19</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 29</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.4 N, 125.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>946 mb / 27.94 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.8,19.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 29</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.7 N, 125.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>957 mb / 28.26 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.6,19.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 29</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 29</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.1 N, 125.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>964 mb / 28.47 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>85 kt / 98 mph / 157 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.4,20.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 30</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.4 N, 125.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>968 mb / 28.59 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.1,20.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 30</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.6 N, 125.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>969 mb / 28.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125,20.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 30</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.9 N, 125.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>970 mb / 28.64 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.1,20.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 30</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 30</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.2 N, 125.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>974 mb / 28.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125,21.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC MAY 31</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC MAY 31</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.5 N, 125.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>976 mb / 28.82 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>65 kt / 75 mph / 120 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.1,21.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC MAY 31</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC MAY 31</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.3 N, 125.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>978 mb / 28.88 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.4,22.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC MAY 31</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC MAY 31</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.7 N, 125.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>979 mb / 28.91 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.5,22.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC MAY 31</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC MAY 31</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.5 N, 125.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>979 mb / 28.91 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.3,23.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JUN 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JUN 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>24.2 N, 125.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>983 mb / 29.03 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.9,24.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JUN 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JUN 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>24.9 N, 126.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>984 mb / 29.06 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.4,24.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JUN 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JUN 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>25.8 N, 127.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>982 mb / 29.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127.3,25.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JUN 1</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JUN 1</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>26.8 N, 128.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>982 mb / 29.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>128.1,26.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JUN 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JUN 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>27.5 N, 129.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.6,27.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC JUN 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC JUN 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>28.3 N, 131.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>982 mb / 29.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>131.3,28.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC JUN 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC JUN 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>28.9 N, 133.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>978 mb / 28.88 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.2,28.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC JUN 2</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC JUN 2</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>29.8 N, 135.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>984 mb / 29.06 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.3,29.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC JUN 3</name>
+      <styleUrl>#ex</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>EX MAWAR (WP022023)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC JUN 3</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>30.7 N, 137.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>982 mb / 29.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.6,30.7</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

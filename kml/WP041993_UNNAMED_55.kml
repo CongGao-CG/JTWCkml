@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>WP041993</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for WP041993</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>0600 UTC APR 15</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.4 N, 164.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>164.7,6.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 15</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 N, 164.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>164.2,6.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 15</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 N, 163.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>163.7,6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 16</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 N, 163.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>163.2,6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 16</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.8 N, 162.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>162.7,6.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 16</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.9 N, 162.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>162.2,6.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 16</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 161.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>161.7,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 17</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 161.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>161.2,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 17</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 160.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>160.6,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 17</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.1 N, 160.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>160,7.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 17</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.1 N, 159.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>159.4,7.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 18</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.1 N, 158.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>158.8,7.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 18</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.2 N, 158.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>158.2,7.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 18</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.5 N, 157.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>157.6,7.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 18</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.9 N, 156.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>156.9,7.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 19</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.5 N, 156.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>156.3,8.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 19</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.1 N, 155.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>155.7,9.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 19</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.7 N, 155.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>155,9.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 19</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.9 N, 154.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>154.2,9.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.9 N, 153.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>153.3,9.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.8 N, 152.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>152.3,9.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.6 N, 151.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>151.3,9.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 20</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.1 N, 150.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>150.4,9.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.5 N, 149.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149.7,8.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.0 N, 149.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>149,8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.5 N, 148.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>148.4,7.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 21</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.2 N, 147.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>147.7,7.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.9 N, 146.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>146.9,6.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 N, 146.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>146,6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.3 N, 145.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>145.2,6.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 22</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.1 N, 144.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>144.3,6.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.9 N, 143.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>143.3,5.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.8 N, 142.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>142.3,5.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.7 N, 141.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>141.3,5.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 23</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.7 N, 140.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>140.3,5.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 24</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.9 N, 139.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>139.4,5.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 24</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.2 N, 138.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>138.6,6.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 24</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 N, 137.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.7,6.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 24</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.8 N, 136.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.8,6.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 25</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.9 N, 135.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.8,6.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 25</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 134.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.8,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 25</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 134.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 25</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 133.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.2,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 26</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 132.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>132.5,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 26</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 131.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>131.8,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 26</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 131.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>131.1,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 26</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 26</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 130.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>130.4,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 27</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.0 N, 129.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.5,7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 27</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.9 N, 128.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>128.6,6.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 27</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.7 N, 127.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127.8,6.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 27</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 27</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.6 N, 127.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127,6.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 28</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 N, 126.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.1,6.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 28</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 N, 125.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.2,6.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 28</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 N, 124.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>124.2,6.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 28</name>
+      <styleUrl>#lo</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>LO UNNAMED (WP041993)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 28</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 N, 123.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>0 mb / 0.00 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>15 kt / 17 mph / 28 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>123.2,6.5</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

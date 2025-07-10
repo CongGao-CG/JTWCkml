@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>WP022021</name>
+    <open>0</open>
+
+    <!-- =====  Document header ===== -->
+    <description><![CDATA[
+      <table>
+        <tr><td><b>Title:</b> Tropical Cyclone Best Track for WP022021</td></tr>
+        <tr><td><b>Date Created:</b> Jul 09 2025</td></tr>
+      </table>
+    ]]></description>
+
+    <!-- =====  Styles (ids must be unique)  ===== -->
+	<Style id="pt"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat5"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat5_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="db"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat3"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat3_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ss"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="lo"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat4"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat4_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat2"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat2_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ts"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ts_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="cat1"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>cat1_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ex"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="st"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="tc"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="wv"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="td"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>td_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="sd"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>ex_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+	<Style id="ty"> 
+		<IconStyle> 
+			<scale>1.0</scale> 
+			<Icon> 
+				<href>typhoon_nhemi.png</href> 
+			</Icon> 
+             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
+		</IconStyle> 
+		<LabelStyle> 
+			<scale>1.0</scale> 
+		</LabelStyle> 
+	</Style>
+
+    <Placemark>
+      <name>1200 UTC APR 11</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 11</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.5 N, 143.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1007 mb / 29.74 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>143.8,5.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 11</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 11</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.6 N, 143.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1005 mb / 29.68 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>143.1,5.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 12</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>5.7 N, 142.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1005 mb / 29.68 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>142.3,5.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 12</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.1 N, 141.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1005 mb / 29.68 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>141.5,6.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 12</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.5 N, 140.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1005 mb / 29.68 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>140.6,6.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 12</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 12</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>6.9 N, 139.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>139.7,6.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 13</name>
+      <styleUrl>#db</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>DB SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.4 N, 139.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1006 mb / 29.71 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>20 kt / 23 mph / 37 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>139.2,7.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 13</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>7.9 N, 138.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1003 mb / 29.62 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>138.8,7.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 13</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.0 N, 138.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1004 mb / 29.65 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>25 kt / 29 mph / 46 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>138.3,8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 13</name>
+      <styleUrl>#td</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TD SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 13</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.2 N, 137.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.9,8.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 14</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.4 N, 137.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>998 mb / 29.47 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.6,8.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 14</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.7 N, 137.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.3,8.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 14</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.8 N, 137.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1001 mb / 29.56 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>137.1,8.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 14</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 14</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.9 N, 136.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>993 mb / 29.32 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.8,8.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 15</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.9 N, 136.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>992 mb / 29.29 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>50 kt / 58 mph / 93 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.5,8.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 15</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.7 N, 136.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>987 mb / 29.15 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.2,8.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 15</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.6 N, 135.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>986 mb / 29.12 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.7,8.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 15</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 15</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.6 N, 135.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>980 mb / 28.94 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>70 kt / 81 mph / 130 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>135.2,8.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 16</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>8.9 N, 134.6 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>978 mb / 28.88 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.6,8.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 16</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.1 N, 133.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>972 mb / 28.70 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.7,9.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 16</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>9.4 N, 133.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>962 mb / 28.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>95 kt / 109 mph / 176 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>133.1,9.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 16</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 16</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.0 N, 132.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>947 mb / 27.97 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>110 kt / 127 mph / 204 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>132.1,10</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 17</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>10.7 N, 131.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>935 mb / 27.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>131.1,10.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 17</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>11.4 N, 130.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>895 mb / 26.43 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>160 kt / 184 mph / 296 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>130.1,11.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 17</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.0 N, 129.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>882 mb / 26.05 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>170 kt / 196 mph / 315 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.2,12</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 17</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 17</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>12.6 N, 128.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>888 mb / 26.22 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>165 kt / 190 mph / 306 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>128.4,12.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 18</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.1 N, 127.7 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>902 mb / 26.64 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>155 kt / 178 mph / 287 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127.7,13.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 18</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.4 N, 127.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>924 mb / 27.29 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>135 kt / 155 mph / 250 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>127,13.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 18</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.6 N, 126.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>932 mb / 27.52 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.8,13.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 18</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 18</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>13.9 N, 126.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>932 mb / 27.52 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.5,13.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 19</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.2 N, 126.4 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>931 mb / 27.49 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.4,14.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 19</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.5 N, 126.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>930 mb / 27.46 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.3,14.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 19</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>14.7 N, 126.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>935 mb / 27.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.3,14.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 19</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 19</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.1 N, 126.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>940 mb / 27.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.2,15.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 20</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.4 N, 126.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>939 mb / 27.73 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.2,15.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 20</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>15.9 N, 126.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>929 mb / 27.43 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>125 kt / 144 mph / 232 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126,15.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 20</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.4 N, 125.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>935 mb / 27.61 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>120 kt / 138 mph / 222 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.9,16.4</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 20</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 20</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>16.9 N, 125.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>940 mb / 27.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.5,16.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 21</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>17.5 N, 125.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>941 mb / 27.79 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.2,17.5</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 21</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.1 N, 124.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>940 mb / 27.76 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>124.9,18.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 21</name>
+      <styleUrl>#cat4</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>18.8 N, 124.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>942 mb / 27.82 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>115 kt / 132 mph / 213 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>124.8,18.8</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 21</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 21</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.3 N, 124.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>948 mb / 27.99 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>105 kt / 121 mph / 194 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>124.8,19.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 22</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>19.7 N, 125.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>954 mb / 28.17 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125,19.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 22</name>
+      <styleUrl>#cat3</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>20.3 N, 125.3 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>953 mb / 28.14 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>100 kt / 115 mph / 185 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>125.3,20.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 22</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.1 N, 126.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>958 mb / 28.29 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>95 kt / 109 mph / 176 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.1,21.1</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 22</name>
+      <styleUrl>#cat2</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 22</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.6 N, 126.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>962 mb / 28.41 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>90 kt / 104 mph / 167 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>126.9,21.6</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 23</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.3 N, 128.0 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>972 mb / 28.70 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>80 kt / 92 mph / 148 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>128,22.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 23</name>
+      <styleUrl>#cat1</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>HU SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.9 N, 129.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>975 mb / 28.79 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>75 kt / 86 mph / 139 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.2,22.9</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 23</name>
+      <styleUrl>#ts</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>TS SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.3 N, 129.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>983 mb / 29.03 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>60 kt / 69 mph / 111 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>129.9,23.3</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 23</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 23</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.2 N, 130.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>985 mb / 29.09 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>55 kt / 63 mph / 102 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>130.5,23.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 24</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>23.0 N, 131.2 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>990 mb / 29.23 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>131.2,23</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 24</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.7 N, 131.9 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>988 mb / 29.18 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>45 kt / 52 mph / 83 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>131.9,22.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1200 UTC APR 24</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1200 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.2 N, 132.8 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>991 mb / 29.26 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>132.8,22.2</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>1800 UTC APR 24</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>1800 UTC APR 24</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>21.7 N, 134.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>992 mb / 29.29 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>40 kt / 46 mph / 74 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>134.1,21.7</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0000 UTC APR 25</name>
+      <styleUrl>#pt</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>XX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0000 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.0 N, 136.1 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>1000 mb / 29.53 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>30 kt / 35 mph / 56 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>136.1,22</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>0600 UTC APR 25</name>
+      <styleUrl>#ex</styleUrl>
+      <description><![CDATA[
+        <table>
+          <tr><td>EX SURIGAE (WP022021)</td></tr>
+          <tr><td><hr></td></tr>
+          <tr><td>0600 UTC APR 25</td></tr>
+          <tr><td>Storm Location:</td></tr>
+          <tr><td><b>22.9 N, 138.5 E</b></td></tr>
+          <tr><td>Min Sea Level Pressure:</td></tr>
+          <tr><td>997 mb / 29.44 in Hg</td></tr>
+          <tr><td>Maximum Intensity:</td></tr>
+          <tr><td>35 kt / 40 mph / 65 kph</td></tr>
+        </table>
+      ]]></description>
+      <Point><coordinates>138.5,22.9</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
