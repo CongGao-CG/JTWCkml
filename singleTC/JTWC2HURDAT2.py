@@ -43,6 +43,7 @@ def convert_system(code: str, vmax: int) -> str:
         "TD": "TD",
         "TS": "TS",
         "TY": "HU",
+        "ST": "HU",
         "HU": "HU",
         "EX": "EX",
         "LO": "LO",
