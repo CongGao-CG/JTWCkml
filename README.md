@@ -25,6 +25,10 @@ python run_all.py
 
 ### Note
 
+- singleTC folder contains the unziped files.
+
+- No TC name in bwp??year(year<2005).
+
 - bsh2002.zip contains bio012002.txt bio022002.txt bio032002.txt bio042002.txt bio052002.txt. They are the same as these in bio2002.zip
 
 - There are bcp012015.dat bcp022002.txt bcp032002.txt bcp032015.dat
