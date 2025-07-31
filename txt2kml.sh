@@ -263,6 +263,7 @@ BLOCK
             # time label
             yyyy=substr(date,1,4); mm=int(substr(date,5,2)); dd=int(substr(date,7,2))
             label=sprintf("%s UTC %s %d",time,mon[mm],dd)
+            ylabel=sprintf("%s UTC %s %d, %s",time,mon[mm],dd,yyyy)
 
             # conversions
             mph=int(wnd*1.15077945+0.5)
@@ -278,7 +279,7 @@ BLOCK
             print  "        <table>"                               >>out
             printf "          <tr><td>%s %s (%s)</td></tr>\n",stat,name,id >>out
             print  "          <tr><td><hr></td></tr>"              >>out
-            printf "          <tr><td>%s</td></tr>\n",label        >>out
+            printf "          <tr><td>%s</td></tr>\n",ylabel        >>out
             print  "          <tr><td>Storm Location:</td></tr>"   >>out
             printf "          <tr><td><b>%.1f %s, %.1f %s</b></td></tr>\n",\
                    (lat<0?-lat:lat),(lat<0?"S":"N"),(lon<0?-lon:lon),(lon<0?"W":"E") >>out
