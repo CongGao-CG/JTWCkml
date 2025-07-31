@@ -10,18 +10,8 @@ $ python count_tc_status.py /path/to/a/directory
 """
 import sys
 from pathlib import Path
-import re
 from collections import Counter
-
-
-def accumulate_counts(path: Path, counts: Counter):
-    with path.open() as f:
-        for line in f:
-            if not re.match(r"^\d{8},", line):
-                continue  # skip header/meta
-            parts = [p.strip() for p in line.split(',')]
-            if len(parts) >= 4 and parts[3]:
-                counts[parts[3]] += 1
+from read_hurricane_data import read_hurricane_data
 
 
 def main():
@@ -32,7 +22,8 @@ def main():
     print(single_TC_dir)
     counts = Counter()
     for txt in single_TC_dir.glob('*.txt'):
-        accumulate_counts(txt, counts)
+        df = read_hurricane_data(txt)
+        counts.update(df["status"])
 
     total = sum(counts.values())
     if not total:
