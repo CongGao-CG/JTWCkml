@@ -174,18 +174,6 @@ cat <<'BLOCK'
 			<scale>1.0</scale> 
 		</LabelStyle> 
 	</Style>
-	<Style id="st"> 
-		<IconStyle> 
-			<scale>1.0</scale> 
-			<Icon> 
-				<href>typhoon_nhemi.png</href> 
-			</Icon> 
-             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
-		</IconStyle> 
-		<LabelStyle> 
-			<scale>1.0</scale> 
-		</LabelStyle> 
-	</Style>
 	<Style id="tc"> 
 		<IconStyle> 
 			<scale>1.0</scale> 
@@ -227,18 +215,6 @@ cat <<'BLOCK'
 			<scale>1.0</scale> 
 			<Icon> 
 				<href>ex_nhemi.png</href> 
-			</Icon> 
-             <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
-		</IconStyle> 
-		<LabelStyle> 
-			<scale>1.0</scale> 
-		</LabelStyle> 
-	</Style>
-	<Style id="ty"> 
-		<IconStyle> 
-			<scale>1.0</scale> 
-			<Icon> 
-				<href>typhoon_nhemi.png</href> 
 			</Icon> 
              <hotSpot x="15" y="17" xunits="pixels" yunits="pixels"/>
 		</IconStyle> 
