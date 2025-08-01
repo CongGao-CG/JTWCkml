@@ -2,15 +2,18 @@ import pandas as pd
 from datetime import datetime
 import re
 
-def read_hurricane_data(filepath):
+def read_hurricane_data(filepath, hurricane_only=True):
     """
     Read a HURDAT2 format hurricane track file and return as pandas DataFrame.
     
     Parameters:
     filepath (str): Path to the .txt file containing hurricane data
+    hurricane_only (bool): If True, only return basic hurricane data (default).
+                          If False, include extended data fields as data-15 to data+15
     
     Returns:
     pandas.DataFrame: DataFrame with columns [time, status, lat, lon, wind, pressure]
+                     and optionally data-15 through data+15 if hurricane_only=False
     """
     
     def parse_coordinate(coord_str):
@@ -94,16 +97,29 @@ def read_hurricane_data(filepath):
             except:
                 pressure_val = None
             
+            # Create row dictionary with basic data
+            row_data = {
+                'time': parsed_time,
+                'status': status,
+                'lat': lat,
+                'lon': lon,
+                'wind': wind_val,
+                'pressure': pressure_val
+            }
+            
+            # If hurricane_only is False, add extended data fields
+            if not hurricane_only and len(parts) == 52:
+                # Get the last 31 fields (data-15 to data+15)
+                extended_data = parts[-31:]
+                
+                # Add each field as data-15 through data+15
+                for i, value in enumerate(extended_data):
+                    col_name = f'data{i-15:+d}'  # Format as data-15, data-14, ..., data+0, ..., data+15
+                    row_data[col_name] = float(value)
+ 
             # Add to data if we have minimum required fields
             if lat is not None and lon is not None:
-                data_rows.append({
-                    'time': parsed_time,
-                    'status': status,
-                    'lat': lat,
-                    'lon': lon,
-                    'wind': wind_val,
-                    'pressure': pressure_val
-                })
+                data_rows.append(row_data)
                 
         except Exception as e:
             # Skip malformed lines
@@ -122,8 +138,16 @@ def read_hurricane_data(filepath):
 # Example usage:
 if __name__ == "__main__":
     # Example of how to use the function
+    
+    # Basic usage (hurricane data only)
     # df = read_hurricane_data('AL122003_HENRI_22.txt')
     # print(df.head())
     # print(f"Shape: {df.shape}")
     # print(f"Columns: {df.columns.tolist()}")
+    
+    # Extended usage (include all data fields)
+    # df_extended = read_hurricane_data('AL122003_HENRI_22.txt', hurricane_only=False)
+    # print(df_extended.head())
+    # print(f"Shape: {df_extended.shape}")
+    # print(f"Columns: {df_extended.columns.tolist()}")
     pass
