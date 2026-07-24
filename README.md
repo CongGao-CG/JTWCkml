@@ -1,3 +1,9 @@
+Run the three download scripts from inside the `zip` folder so the downloaded files are saved there:
+
+```bash
+cd zip
+```
+
 ```bash
 ./dwnld_bwp.sh
 ```
@@ -28,6 +34,8 @@ python run_all.py
 - singleTC folder contains the unziped files.
 
 - No TC name in bwp??year(year<2005).
+
+- bio1958.zip cannot be downloaded.
 
 - bsh2002.zip contains bio012002.txt bio022002.txt bio032002.txt bio042002.txt bio052002.txt. They are the same as these in bio2002.zip
 
