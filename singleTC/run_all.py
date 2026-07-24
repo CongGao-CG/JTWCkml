@@ -4,13 +4,14 @@ run_all.py – drive JTWC2HURDAT2.py over every b*.txt / b*.dat in the current
 directory, while
 
   • de-duplicating storms that appear as both .txt and .dat
-  • skipping storms whose product already exists in ../single_TC/
+  • replacing storms whose product already exists in ../single_TC/
   • keeping correct statistics
 """
 
 from pathlib import Path
 from collections import Counter
-import subprocess, sys, textwrap, glob
+import subprocess
+import sys
 
 # ------------------------------------------------------------
 BDECKS = sorted(Path(".").glob("b*.txt")) + sorted(Path(".").glob("b*.dat"))
@@ -34,10 +35,7 @@ for stem, path in unique_inputs.items():
     # Expected product prefix  (bwp082019 → WP082019  etc.)
     prod_prefix = stem[1:].upper()                 # drop leading 'b'
 
-    already = glob.glob(f"../single_TC/{prod_prefix}*.txt")
-    if already:
-        stats["skipped"] += 1
-        continue
+    existing_products = list(Path("../single_TC").glob(f"{prod_prefix}*.txt"))
 
     # --- run the converter --------------------------------------------------
     proc = subprocess.run(
@@ -52,6 +50,21 @@ for stem, path in unique_inputs.items():
         stats["no_data"] += 1
         nodata.append(path.name)
     elif proc.returncode == 0:
+        written = [
+            line[len("Wrote ") :].strip()
+            for line in out.splitlines()
+            if line.startswith("Wrote ")
+        ]
+        if not written:
+            stats["errors"] += 1
+            errors.append(path.name)
+            continue
+
+        written_product = Path(written[-1]).resolve()
+        for old_product in existing_products:
+            if old_product.resolve() != written_product:
+                old_product.unlink()
+
         stats["success"] += 1
     else:
         stats["errors"] += 1
@@ -63,7 +76,6 @@ total = sum(stats.values())
 
 print("\n========== SUMMARY ==========")
 print(f"✓  Success : {stats['success']}")
-print(f"↷  Skipped : {stats['skipped']}")
 print(f"Ø  No data : {stats['no_data']}")
 print(f"✗  Errors  : {stats['errors']}")
 print(f"Total storms processed: {total}")

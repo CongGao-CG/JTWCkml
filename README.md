@@ -48,6 +48,10 @@ cd ..
 
 - bio1958.zip cannot be downloaded.
 
+- No valid rows:
+  - `bwp011953.txt`
+  - `bwp201956.txt`
+
 - bsh2002.zip contains bio012002.txt bio022002.txt bio032002.txt bio042002.txt bio052002.txt. They are the same as these in bio2002.zip
 
 - There are bcp012015.dat bcp022002.txt bcp032002.txt bcp032015.dat

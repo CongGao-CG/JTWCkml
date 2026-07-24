@@ -7,20 +7,38 @@
 #         ./txt2kml.sh
 # ------------------------------------------------------------------
 
+indir="single_TC"
 outdir="kml"
+
+if [ ! -d "$indir" ]; then
+    printf 'error: input directory %s does not exist\n' "$indir" >&2
+    exit 1
+fi
+
 mkdir -p "$outdir"
+
+# Remove KML files whose corresponding input files no longer exist.
+for old_kml in "$outdir"/*.kml; do
+    [ -f "$old_kml" ] || continue
+
+    corresponding_txt="$indir/${old_kml##*/}"
+    corresponding_txt="${corresponding_txt%.kml}.txt"
+    if [ ! -f "$corresponding_txt" ]; then
+        rm -- "$old_kml" || exit 1
+        printf 'removed %s\n' "$old_kml"
+    fi
+done
 
 # constant for mb → inches of mercury
 inHgFactor=0.0295301
 
-for txt in single_TC/*.txt; do
+for txt in "$indir"/*.txt; do
     [ -f "$txt" ] || continue
 
     # ---- read header (first line) ---------------------------------------
     IFS=',' read -r id rawname rawcount _ <"$txt"
     id=$(echo "$id" | xargs)           # AL282020
     name=$(echo "$rawname" | xargs)    # ZETA
-    today=$(date '+%b %d %Y')          # e.g. Jun 27 2025
     kml="$outdir/${txt##*/}"
     kml="${kml%.txt}.kml"              # change extension
 
@@ -37,7 +55,6 @@ cat <<'BLOCK'
     <description><![CDATA[
       <table>
         <tr><td><b>Title:</b> Tropical Cyclone Best Track for ID_REPL</td></tr>
-        <tr><td><b>Date Created:</b> DATE_REPL</td></tr>
       </table>
     ]]></description>
 
@@ -224,7 +241,7 @@ cat <<'BLOCK'
 	</Style>
 
 BLOCK
-    } | sed "s/ID_REPL/$id/g; s/DATE_REPL/$today/g" >"$kml"
+    } | sed "s/ID_REPL/$id/g" >"$kml"
 
     # ---- append placemarks ----------------------------------------------
     awk -F',' -v id="$id" -v name="$name" -v factor="$inHgFactor" \
