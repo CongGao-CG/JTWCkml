@@ -16,13 +16,24 @@ cd zip
 ./dwnld_bsh.sh
 ```
 
+```bash
+cd ..
+```
 
 ```bash
 ./unzip_files.sh
 ```
 
 ```bash
+cd singleTC
+```
+
+```bash
 python run_all.py
+```
+
+```bash
+cd ..
 ```
 
 ```bash
